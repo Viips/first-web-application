@@ -1,0 +1,15 @@
+127.0.0.1 - - [13/Mar/2017:15:16:21 +0000] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-1 91
+127.0.0.1 - - [13/Mar/2017:15:16:21 +0000] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 4
+127.0.0.1 - - [13/Mar/2017:15:21:06 +0000] "GET / HTTP/1.1" 200 168 http-bio-8080-exec-4 1063
+127.0.0.1 - - [13/Mar/2017:15:28:02 +0000] "GET /login.do HTTP/1.1" 200 168 http-bio-8080-exec-6 23
+127.0.0.1 - - [13/Mar/2017:15:28:09 +0000] "GET /login.do?id=yolo HTTP/1.1" 200 168 http-bio-8080-exec-7 4
+127.0.0.1 - - [13/Mar/2017:15:28:36 +0000] "GET /?id=yolo HTTP/1.1" 200 168 http-bio-8080-exec-8 2
+127.0.0.1 - - [13/Mar/2017:15:29:02 +0000] "GET /?id=yolo HTTP/1.1" 200 168 http-bio-8080-exec-9 1
+127.0.0.1 - - [13/Mar/2017:15:31:42 +0000] "GET /?id=yolo HTTP/1.1" 200 184 http-bio-8080-exec-1 215
+127.0.0.1 - - [13/Mar/2017:15:35:31 +0000] "GET /login.do HTTP/1.1" 200 184 http-bio-8080-exec-3 156
+127.0.0.1 - - [13/Mar/2017:15:35:55 +0000] "GET /login.do?name=yolo HTTP/1.1" 200 188 http-bio-8080-exec-3 3
+127.0.0.1 - - [13/Mar/2017:15:49:17 +0000] "GET /login.do?name=von&pword=sway HTTP/1.1" 200 187 http-bio-8080-exec-6 106
+127.0.0.1 - - [13/Mar/2017:15:51:19 +0000] "GET /login.do?name=von&pword=sway HTTP/1.1" 200 211 http-bio-8080-exec-8 97
+127.0.0.1 - - [13/Mar/2017:15:55:30 +0000] "GET /login.do?name=Von&pword=Sway HTTP/1.1" 200 211 http-bio-8080-exec-10 3
+127.0.0.1 - - [13/Mar/2017:16:07:08 +0000] "GET /login.do?first=Von&last=Sway HTTP/1.1" 200 208 http-bio-8080-exec-2 106
+127.0.0.1 - - [13/Mar/2017:16:08:02 +0000] "GET /login.do?first=Von&last=Sway HTTP/1.1" 200 233 http-bio-8080-exec-2 186
